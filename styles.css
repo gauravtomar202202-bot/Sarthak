@@ -206,6 +206,12 @@ p  { font-size: 1.05rem; }
   flex-direction: column;
   gap: 4px;
 }
+.nav__logo-icon img {
+  height: 44px;
+  width: auto;
+  display: block;
+  object-fit: contain;
+}
 .nav__logo-icon span {
   display: block;
   height: 3px;
@@ -963,6 +969,12 @@ select.form-control { appearance: none; cursor: pointer; }
   display: flex;
   flex-direction: column;
   gap: 4px;
+}
+.footer__brand-logo .icon img {
+  height: 44px;
+  width: auto;
+  display: block;
+  object-fit: contain;
 }
 .footer__brand-logo .icon span {
   display: block;
